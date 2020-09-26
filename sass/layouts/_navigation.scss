@@ -25,14 +25,13 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.site-nav__link:hover,
-.site-nav__link:focus,
-.logo:focus {
-  color: $selection-text-color;
+  &:hover,
+  &:focus,
+  .logo:focus {
+    color: $selection-text-color;
+  }
 }
-
 .site-nav__item {
   position: relative;
 }
