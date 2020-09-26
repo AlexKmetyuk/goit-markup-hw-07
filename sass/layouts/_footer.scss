@@ -1,0 +1,38 @@
+footer {
+  padding: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $backgraund-color-1;
+}
+
+.footer-info {
+  align-self: baseline;
+}
+
+.page-footer .conteiner .logo {
+  padding: 0;
+  margin: 0;
+}
+
+.logo__studio--white {
+  color: $white;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.address__item {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+
+  color: $white;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
