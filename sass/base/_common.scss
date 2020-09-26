@@ -2,6 +2,9 @@ body {
   color: $primary-text-color;
 
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 .list {
@@ -29,8 +32,8 @@ textarea {
 }
 
 .conteiner {
-  margin: 0px auto;
-  padding: 0px 15px;
+  margin: 0 auto;
+  padding: 0 15px;
   width: 1200px;
 }
 

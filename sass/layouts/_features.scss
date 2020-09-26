@@ -22,10 +22,6 @@
 .features__text {
   margin: 0px;
   width: 270px;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
 }
 
 .features__item::before {
@@ -35,7 +31,7 @@
   height: 120px;
   border-radius: 4px;
 
-  background-color: $backgraund-color-2;
+  background-color: $bg-color-secondary;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 70px;
